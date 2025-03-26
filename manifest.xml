@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="TaskPaneApp">
+    <!-- Unique ID for your add-in -->
+    <Id>6urTT8TJ/keIepWaRiGvhQ==</Id> 
+    <Version>1.0.0.0</Version>
+    <ProviderName>RKS</ProviderName>
+    <DefaultLocale>en-US</DefaultLocale>
+    
+    <!-- Display Name and Description -->
+    <DisplayName>AI Formula Generator</DisplayName>
+    <Description>Generate Excel formulas using AI.</Description>
+
+    <!-- Replace with actual hosted icon URL -->
+    <IconUrl>https://i.ibb.co/136Sq86/0-zb-Py-DQ-m2e8pb6-J8.png</IconUrl> 
+
+    <!-- Support URL (you can leave this empty or remove the tag if you don't have one) -->
+    <SupportUrl>https://your-support-url.com</SupportUrl> <!-- If you don't have a support URL, you can leave this tag empty or remove it -->
+
+    <!-- Make sure the app domain is correct, replace with the actual domain where the app is hosted -->
+    <AppDomains>
+        <AppDomain>https://Andrewcr1988.github.io</AppDomain>
+    </AppDomains>
+
+    <!-- Define the host type (Excel Workbook in this case) -->
+    <Hosts>
+        <Host xsi:type="Workbook"/>
+    </Hosts>
+
+    <!-- Specify where your task pane is hosted -->
+    <DefaultSettings>
+        <SourceLocation DefaultValue="https://Andrewcr1988.github.io/RKSexceladdin/src/taskpane/taskpane.html"/>
+    </DefaultSettings>
+
+</OfficeApp>
